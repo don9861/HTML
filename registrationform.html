@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="shortcut icon" href="https://i1.wp.com/motivationandlearningtrust.org/wp-content/uploads/2018/11/website-favicon.jpg?ssl=1" type="image/x-icon">
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <fieldset>
+    <table cellspacing="15">
+        <form>
+            <legend align="center"><h3>Fill the form carefully for registration</h3></legend>
+        <tr>
+            <h4>Student Name</h4>
+            <td><input type="text" name="fname" id="fname" placeholder="First Name" ></td>
+            <td><input type="text" name="mname" id="mname" placeholder="Middle Name" ></td>
+            <td><input type="text" name="lname" id="lname" placeholder="Last Name" ></td>
+        </tr>
+        <tr>
+            <td><h4>Birth Date</h4></td>
+            <td><input type="date" name="date" id="date"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" value="male" required>Male
+                <input type="radio" name="gender" value="female" required>Female
+                <input type="radio" name="gender" value="others" required>Others
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" id="email" placeholder="Email Address" required></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="pass" id="pass" required></td>
+        </tr>
+        <tr>
+            <td>Repeat Password</td>
+            <td><input type="password" name="pass1" id="pass1" required></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input type="tel" name="tel" id="tel"></td>
+        </tr>
+        <tr>
+            <td>Please Select a Course</td>
+            <td>
+                <select name="subject" id="subject">
+                    <option value="Choose">Choose course</option>
+                    <option value="MERN">MERN</option>
+                    <option value="JAVA">JAVA</option>
+                    <option value="Python">Python</option>
+                    <option value="Ruby">Ruby</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Upload your photo</td>
+            <td><input type="file" name="upload" id="upload"></td>
+        </tr>
+        <tr>
+            <td>Tell us about yourself</td>
+        <td><textarea name="msg" id="msg" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="rem">Remember Me</td>
+        </tr>
+        <tr>
+            <td>By Registrating, you agree to our <a href="https://th.bing.com/th/id/R.d2f40ce9c1c039fa2235d545a25f7d14?rik=qKZ%2bbYq1XMu9xw&riu=http%3a%2f%2fconversationalcrm.com%2fwp-content%2fuploads%2f2015%2f02%2fTermsAndConditions.jpg&ehk=WXopTLTn8o7zs36zINR3eKPghSP0dpVbL1AZcUszJN0%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">Terms & Privacy</a></td>
+        </tr>
+        <tr>
+            <td><input type="reset" value="Cancel">
+            <input type="submit" value="Register"></td>
+        </tr>
+        </form>
+    </table>
+</fieldset>
+</body>
+</html>

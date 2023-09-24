@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Table</title>
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/R.68f8e9ca937cca27da8128b8ae6d3fa2?rik=KkIva1JQIDXAgQ&pid=ImgRaw&r=0" type="image/x-icon">
+</head>
+<body>
+    <table align="center"> 
+        <form>
+        <tr>
+            <th colspan="2">Fill the form below</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="fname" id="fname"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="pwd" id="pwd"></td>
+        </tr>
+        <tr>
+            <td>Feedback</td>
+            <td><textarea name="msg" id="msg" cols="25" rows="8"></textarea></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" value="male" required>Male
+                <input type="radio" name="gender" value="female">Female</td>
+        </tr>
+        <tr>
+        <td>Subject</td>
+        <td><input type="checkbox" name="subject" value="web">Web
+            <input type="checkbox" name="subject" value="math">Math
+            <input type="checkbox" name="subject" value="gra">Graphics
+            <input type="checkbox" name="subject" value="eng">English</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="reset" value="Reset All">
+                <input type="submit" value="Submit Above Details"></td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>

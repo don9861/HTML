@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/R.0b62cd47cb63920465832ff7dda559ee?rik=F30IYDsMS9E0Gg&pid=ImgRaw&r=0" type="image/x-icon">
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Fill out all the fields</legend>
+        <label for="fname">First Name :</label>
+        <input type="text" name="fname" required id="fname" placeholder="First name"><br>
+        <label for="mname">Middle Name :</label>
+        <input type="text" name="mname" id="mname" placeholder="Middle name"><br>
+        <label for="lname">Last Name :</label>
+        <input type="text" name="lname" required id="lname" placeholder="Last name"><br>
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" placeholder="example@example.com" required><br>
+        <label for="pass">Password : </label>
+        <input type="password" name="pass" id="pass" required><br>
+        <label >Gender : </label>
+        <input type="radio" name="gender" value="male" required>Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="others">Others<br>
+        <input type="hidden" name="user" value="admin">
+        <label>Choose any two : </label><br>
+        <input type="checkbox" name="subject" value="python">Python
+        <input type="checkbox" name="subject" value="java">JAVA
+        <input type="checkbox" name="subject" value="php/laravel">PHP/Laravel
+        <input type="checkbox" name="subject" value="ruby">Ruby
+        <br>
+        <label for="countries">Country :</label>
+        <select name="countries" id="countries">
+            <option> Choose a country</option>
+            <option value="Nepal">Nepal</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="France">France</option>
+            <option value="United States">United States</option>
+            <option value="England">England</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="Spain">Spain </option>
+            <option value="Japan">Japan</option>
+            <option value="South Korea">South Korea</option>
+            <option value="Qatar">Qatar</option>
+        </select><br>
+        <label for="dob">Date of Birth :</label>
+        <input type="date" name="dob"id="dob" required><br>
+        <label for="search">Search Item : </label>
+        <input type="search" name="search" id="search"><br>
+        <label for="zip">Zip Code : </label>
+        <input type="number" name="zip" id="zip"><br>
+        <label for="phone">Phone Number : </label>
+        <input type="tel" name="phone" id=" phone" required><br>
+        <label for="msg">Message : </label><br>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br>
+        <label for="upload">File Upload :</label><br>
+        <input type="file" name="upload" id="upload"><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </fieldset>
+    </form>
+</body> 
+</html>     
